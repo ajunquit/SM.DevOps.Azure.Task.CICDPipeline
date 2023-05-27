@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SM.DevOps.Azure.Task.CICDPipeline\SM.DevOps.Azure.Task.CICDPipeline.csproj" />
+  </ItemGroup>
+
 </Project>

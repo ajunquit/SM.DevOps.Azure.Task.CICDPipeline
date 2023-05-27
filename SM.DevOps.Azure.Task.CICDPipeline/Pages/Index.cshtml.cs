@@ -12,6 +12,10 @@ namespace SM.DevOps.Azure.Task.CICDPipeline.Pages
             _logger = logger;
         }
 
+        public IndexModel()
+        {
+        }
+
         public void OnGet()
         {
 
