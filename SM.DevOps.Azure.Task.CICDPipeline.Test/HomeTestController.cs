@@ -11,7 +11,7 @@ namespace SM.DevOps.Azure.Task.CICDPipeline.Test
         [Fact]
         public void Test_Index_View_Result()
         {
-            var pageModel = new IndexModel();
+            var pageModel = new IndexModel(null);
             pageModel.OnGet();
         }
     }
