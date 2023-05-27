@@ -15,4 +15,5 @@ namespace SM.DevOps.Azure.Task.CICDPipeline.Test
             pageModel.OnGet();
         }
     }
+
 }
